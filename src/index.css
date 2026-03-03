@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-nunito: "Nunito", sans-serif;
+  --font-chonburi: "Chonburi", serif;
+  --font-dm-serif: "DM Serif Display", serif;
+}
+
+body {
+  @apply bg-[#FDFDFD];
+}
+
+h1 {
+  @apply font-dm-serif;
+}
+
+h2 {
+  @apply font-chonburi;
+}
+
+p {
+  @apply font-nunito;
+}
